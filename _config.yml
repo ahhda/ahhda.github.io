@@ -1,0 +1,42 @@
+# Site
+name: "Anuj Bansal's blog"
+description: "Learn Code Discover"
+meta_description: "Anuj's blog about code, servers and other stuff."
+logo: 'assets/images/logo-a.png'
+favicon: 'assets/images/logo-a.png'
+baseurl:
+google_analytics: 'UA-84145445-2'
+disqus: 'anuj-3'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  sal:
+    name: Anuj Bansal
+    display_name: Anuj
+    gravatar: 23dfd27b1af8d276aca521f183c647d4
+    email: bansalanuj1996@gmail.com
+    web: https://ahhda.github.io
+    twitter: https://twitter.com/anujbansal1996
+    description: "Author of this blog."
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
