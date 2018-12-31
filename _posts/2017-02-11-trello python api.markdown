@@ -1,11 +1,9 @@
 ---
 title: Using the Trello Python API
 date: 2017-02-11 15:39:00 +05:30
-tags:
-- python
-- api
-- trello
+tags: [python, api, trello]
 layout: post
+author: anuj
 image: assets/images/trello.png
 ---
 

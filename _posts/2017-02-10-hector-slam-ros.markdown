@@ -1,11 +1,9 @@
 ---
 title: Running Autonomous Hector SLAM on Lizi
 date: 2017-02-10 19:22:00 +05:30
-tags:
-- ros
-- SLAM
-- self driving
+categories: [ros, SLAM, self driving]
 layout: post
+author: anuj
 image: assets/images/gazebo.png
 ---
 
