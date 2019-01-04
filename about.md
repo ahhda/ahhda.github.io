@@ -4,7 +4,7 @@ title: About Me
 comments: true
 ---
 
-I'm a Software engineer that thrives on building awesome, highly scalable applications with a beautiful design. I just love programming.
+I'm a Software engineer who thrives on building awesome, highly scalable applications with a beautiful design. I just love programming.
 
 Most familiar with Python, Javascript.
 
