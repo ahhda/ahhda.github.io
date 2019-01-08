@@ -5,8 +5,8 @@ date: 2018-12-31
 author: anuj
 categories: [docker, jekyll]
 image: assets/images/jekyll_docker.png
-featured: false
-hidden: false
+featured: true
+hidden: true
 ---
 
 This website is built with static site generator Jekyll and hosted on GitHub pages. 
