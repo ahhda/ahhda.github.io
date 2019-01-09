@@ -21,7 +21,7 @@ Well, we got in and that gave us a lot of money so that we could freely experime
 
 And this is where we were mistaken. On `3rd November, 2018`, I was experimenting with NLP libraries when I found [DrQA](https://github.com/facebookresearch/DrQA). DrQA is an awesome system for reading comprehension applied to open-domain question answering. It is basically "machine reading at scale" (MRS). It has a document retriever which is `~13GB` in size and some pre trained models which are `~25GB` when untarred. So I quickly spun up a Compute Engine VM instance and started the training, but soon I ran out of space and memory. I tried increasing the space, then the memory and it still ran out of it. Frustrated, I created a new VM instance with more than `~250GB` space (and this is SSD we are talking about), a lot of RAM, 16 vCPUs and something I shouldn't have added. A GPU. Which one? `NVIDIA Tesla P100`!
 
-Well, the rest is just history. We ended up with 3 month bill adding upto a total worth of `$4000`.
+I played around with the VM, trained the models and did some testing. Soon, I realized this is not what I was looking for and went to sleep. I FORGOT to turn the instance DOWN! Well, the rest is just history. We ended up with a 3 month bill adding upto a total worth of `$4000` for something we just used for a day.
 
 # Some valuable lessons:
 
@@ -44,5 +44,9 @@ Hackers are always running bots which are basically trying to access common port
 ### 4. Try to avoid opening network access to any IP
 
 Network/IP filters are very important. Avoid opening your network firewalls to something like: `0.0.0.0/0`. I know you are in a hurry, I know you have to get that MVP up ASAP, but taking this extra step will save you a lot of time and effort for the future and will also keep you secure.
+
+### 5. Monitor and turn it down
+
+Once in a while, do monitor your instance health for problems and check if you actually need that instance or not. If not, it's best to just stop it, restarting it wouldn't take much time and you get all your data back. Plus you will not be billed for something you didn't use.
 
 That’s all! Go ahead and make sure your money is safe.
