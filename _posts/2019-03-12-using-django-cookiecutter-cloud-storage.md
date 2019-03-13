@@ -49,8 +49,8 @@ Add the following lines to the file `config/settings/production.py`:
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_BUCKET_NAME = #YOUR BUCKET NAME
 GS_DEFAULT_ACL = 'publicRead'
-MEDIA_URL = 'https://storage.cloud.google.com/{}/'.format(GS_BUCKET_NAME)
-MEDIA_ROOT = 'https://storage.cloud.google.com/{}/'.format(GS_BUCKET_NAME)
+MEDIA_URL = 'https://storage.googleapis.com/{}/'.format(GS_BUCKET_NAME)
+MEDIA_ROOT = 'https://storage.googleapis.com/{}/'.format(GS_BUCKET_NAME)
 ```
 
 ### 6. Build and Run!
