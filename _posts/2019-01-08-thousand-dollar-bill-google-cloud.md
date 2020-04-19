@@ -5,7 +5,7 @@ date: 2019-01-08
 author: anuj
 categories: [cloud, gce]
 image: assets/images/lost_cloud.jpg
-featured: true
+featured: false
 hidden: true
 ---
 
