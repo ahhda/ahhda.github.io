@@ -6,7 +6,7 @@ author: anuj
 categories: [cloud, gce]
 image: assets/images/lost_cloud.jpg
 featured: false
-hidden: true
+hidden: false
 ---
 
 `2nd January 2019`, I was sitting there wondering how 2018 felt like a few days rather than 12 months, when I receive a message on my phone:
